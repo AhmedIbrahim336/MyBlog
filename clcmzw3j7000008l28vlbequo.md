@@ -138,7 +138,7 @@ console.log(a << b); // 0000 0100
 // 2 << 1: 0000 0100
 ```
 
-## Right Shift (`<<`)
+## Right Shift (`>>`)
 
 The **right shift** operator is the same as the **left shift** but to the right.
 
