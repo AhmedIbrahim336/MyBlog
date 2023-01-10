@@ -205,11 +205,11 @@ The **bitwise NOT (**`~`**)** operator will invert the bits of the number.
 ```
 
 ```javascript
-const a = 5; // 00000101
-const b = 3; // 00000011
+const a = 5; // 00000000000000000000000000000101
+const b = 3; // 11111111111111111111111111111101
 
-console.log(~a); // 11111010 (-6)
-console.log(~b); // 11111100 (-4)
+console.log(~a); // 11111111111111111111111111111010 (-6)
+console.log(~b); // 00000000000000000000000000000010 (-4)
 ```
 
 ## Bitwise OR (`|`)
